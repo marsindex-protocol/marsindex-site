@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000; /* 保留黑色背景 */
+  /* color 和 font-family 已经移除，让 Tailwind 控制 */
+}
